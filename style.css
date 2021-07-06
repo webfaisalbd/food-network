@@ -2,7 +2,10 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 50px;
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
 }
 p{
     font-size: 18px;
@@ -18,6 +21,7 @@ p{
 }
 .flexible-container{
     display: flex;
+   
 }
 .half{
     width: 40%;
@@ -26,6 +30,15 @@ p{
 }
 .half img{
     width: 100%;
+}
+
+.text-positioning{
+    padding-top: 80px;
+    
+}
+.section-positioning{
+    padding-top: 60px;
+    padding-bottom: 45px;
 }
 .orange-color{
     color: orange;
@@ -37,27 +50,17 @@ p{
 .about-me img{
     width: 100%;
 }
-.my-recipies h1,p{
+.my-recipies h2,p{
     text-align: center;
 }
 .recipe-item{
-    /* width: 25%;
-    height: 500px;
-    margin-left: 5%;
-    padding-left: 2%;
-    border-left: 7px solid;
-    border-image: linear-gradient(blue,cyan);
-    border-image-slice: 1;
-    background-color: lightsteelblue;
-    border-radius: 25px;
-    box-shadow: 10px 10px 40px gray; */
+    
     width: 20%;
     margin-left: 5%;
     padding-left: 2%;
     background-color: lightsteelblue;
     border-radius: 25px;
     box-shadow: 10px 10px 40px gray;
-
 
 }
 .recipe-item img{
@@ -66,4 +69,18 @@ p{
     margin-top: 3%;
     margin-left: 9%;
     
+}
+footer{
+    height: 200px;
+    background-color: black;
+}
+footer h3{
+    text-align: center;
+    color: gray;
+    font-size: 25px;
+    padding-top: 23px;
+}
+footer p{
+    text-align: center;
+    color:lightgoldenrodyellow;
 }
