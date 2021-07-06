@@ -9,14 +9,25 @@ body{
     text-align: center;
     color: orange;
 }
+.navbar{
+    background-color: tomato;
+    padding: 2% 7%;
+    text-align: center;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    cursor: pointer;
+}
 .discount img{
     width: 50%;
     padding-top:60px ;
     padding-bottom: 60px;
     padding-left: 125px;
     border-radius: 10%;
-    
-
 }
 .discount-offer h2{
     text-align: center;
@@ -52,12 +63,12 @@ p{
     align-items: center;
    
 }
-.half{
+.half-width{
     width: 40%;
     margin-left: 5%;
     padding-left: 2%;
 }
-.half img{
+.half-width img{
     width: 100%;
 }
 
@@ -72,13 +83,7 @@ p{
 .orange-color{
     color: orange;
 }
-.about-me{
-    background-image: url(images/shapes/7.png);
-    background-repeat: no-repeat;
-}
-.about-me img{
-    width: 100%;
-}
+
 .my-recipies h2,p{
     text-align: center;
 }
@@ -111,17 +116,11 @@ footer p{
     text-align: center;
     color:lightgoldenrodyellow;
 }
-
-.navbar{
-    background-color: tomato;
-    padding: 2% 7%;
-    text-align: center;
+.about-me{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.about-me img{
+    width: 100%;
 }
 
-.navbar a{
-    color: white;
-    text-decoration: none;
-    font-size: 1.2em;
-    padding: 10px 20px;
-    cursor: pointer;
-}
