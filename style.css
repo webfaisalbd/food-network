@@ -9,6 +9,19 @@ body{
     text-align: center;
     color: orange;
 }
+.discount img{
+    width: 50%;
+    padding-top:60px ;
+    padding-bottom: 60px;
+    padding-left: 125px;
+    border-radius: 10%;
+    
+
+}
+.discount-offer h2{
+    text-align: center;
+    color: red;
+}
 h1{
     font-size: 60px;
 }
