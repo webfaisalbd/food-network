@@ -84,3 +84,17 @@ footer p{
     text-align: center;
     color:lightgoldenrodyellow;
 }
+
+.navbar{
+    background-color: tomato;
+    padding: 2% 7%;
+    text-align: center;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    cursor: pointer;
+}
