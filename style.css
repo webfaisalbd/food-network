@@ -1,6 +1,14 @@
 body{
     margin: 0;
 }
+.heading{
+    padding: 4% 7%;
+    background-image: url(images/food_cover.jpg);
+}
+.heading h2{
+    text-align: center;
+    color: orange;
+}
 h1{
     font-size: 60px;
 }
