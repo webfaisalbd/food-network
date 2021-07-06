@@ -14,9 +14,15 @@ h1{
 }
 h2{
     font-size: 40px;
+    color: gray;
+}
+h3{
+    font-size: 30px;
 }
 p{
-    font-size: 18px;
+    font-size: 23px;
+    font-family: 'Zen Loop', cursive;
+    font-weight: 400;
 }
 .button-design{
     text-decoration: none;
@@ -43,9 +49,9 @@ p{
 }
 
 .text-positioning{
-    padding-top: 80px;
+    padding-top: 10px;
     
-}
+} 
 .section-positioning{
     padding-top: 60px;
     padding-bottom: 45px;
